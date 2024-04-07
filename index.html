@@ -12,7 +12,11 @@
   <link rel="stylesheet" type="text/css" href="./styles/lab_four.css">
   <script src="./scripts/assignment-2.js" defer></script>
   <script src="https://kit.fontawesome.com/9485494704.js" crossorigin="anonymous"></script>
-  <link href="https://fonts.googleapis.com/css2?family=Madimi+One&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Bitter:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
   <title>Common Website Features</title>
 </head>
 
@@ -22,7 +26,10 @@
     <div class="hero-img">
     </div>
   </section>
+
+  <div style="height: 50px;"></div>
   <!--Content Section-->
+  <div class="content-sections-container"></div>
   <section class="content-section">
     <div class="image-container">
       <img src="./styles/assets/dance.jpg" alt="Recent Photoshoot, two people dancing">
@@ -33,7 +40,17 @@
       <a href=https://www.flickr.com/photos/200206270@N07/ class="learn-more-btn">Learn More</a>
     </div>
   </section>
-  <!DOCTYPE html>
+  <section class="content-section">
+    <div class="image-container">
+      <img src="./styles/assets/girl.jpg" alt="julia  belsham portrait">
+    </div>
+    <div class="text-content">
+      <h1>More Photos</h1>
+      <p>Check out the photos on my Flickr.</p>
+      <a href="https://www.flickr.com/photos/199233472@N03/with/53271960432" class="learn-more-btn">Learn More</a>
+    </div>
+  </section>
+
   <!--Accordian Section-->
 
   <section class="container">
@@ -130,18 +147,20 @@
           <p class="paragraph">
             Shot by Matthew Sperling
             <br>
-            <a href="https://flic.kr/p/2pABHba">Click here for HD version</a>
+            <a href="https://flic.kr/p/2pABHba">Click here for full size version</a>
           </p>
         </div>
       </li>
     </ul>
+    <!-- Video Embed -->
+    <div class="video-embed-container">
+      <iframe src="https://www.youtube.com/embed/XU6ZWmVcutI?si=oBUaisgyYo4jjQwC" frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
 
     <body>
       <!--Acordian-->
-
-      <head>
-        <title>Equipment</title>
-      </head>
+      <div style="height: 50px;"></div>
       <div class="accordion">
         <h1 class="accordion-header">More Info</h1>
         <button class="accordion-button">Camera Equipment</button>
