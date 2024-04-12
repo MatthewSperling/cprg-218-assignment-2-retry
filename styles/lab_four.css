@@ -77,7 +77,9 @@ h1 {
 
 .accordion-button {
   background-color: #eee;
-  color: #444;
+  /* Light grey background */
+  color: #000;
+  /* Changed text color to black */
   cursor: pointer;
   padding: 18px;
   width: 100%;
